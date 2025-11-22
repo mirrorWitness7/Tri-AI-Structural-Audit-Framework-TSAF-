@@ -1,0 +1,51 @@
+{
+  "description": "TSAF entity schema (anonymized, no real names required).",
+  "type": "object",
+  "properties": {
+    "entity": {
+      "type": "string",
+      "description": "Anonymized label, e.g. 'Case A'"
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Key public claims, slogans, or narratives."
+    },
+    "structural_data": {
+      "type": "object",
+      "description": "Financials, market info, etc."
+    },
+    "contradictions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Plain-language description of contradictions."
+    },
+    "optics_strategy": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "How optics / PR are used."
+    },
+    "risk_factors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "High-level risks (macro, AI, unit economics, cognition)."
+    },
+    "recursion_score_estimate": {
+      "type": "number",
+      "description": "Approximate N-level for the entity."
+    }
+  },
+  "required": [
+    "entity",
+    "claims",
+    "structural_data"
+  ]
+}

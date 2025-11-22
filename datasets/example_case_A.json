@@ -1,0 +1,36 @@
+{
+  "entity": "Case A - Discipline-Optics Founder",
+  "claims": [
+    "Discipline guarantees success",
+    "Mission is more important than profit",
+    "This model will fix inequality"
+  ],
+  "structural_data": {
+    "financials": {
+      "revenue_normalized": 0.2,
+      "loss_normalized": 0.8,
+      "unit_economics": "negative"
+    },
+    "market": {
+      "TAM_trend": "shrinking",
+      "automation_risk": "high",
+      "competition": "global giants"
+    }
+  },
+  "contradictions": [
+    "Claims extreme discipline while tolerating multi-year uncontrolled losses",
+    "Claims to help users while platform instability exposes them to collapse risk"
+  ],
+  "optics_strategy": [
+    "Heavy use of motivational quotes",
+    "Frequent narrative pivots across hype categories",
+    "Moral framing of critics as 'lazy' or 'dramatic'"
+  ],
+  "risk_factors": [
+    "High AI automation exposure",
+    "Negative unit economics",
+    "Macro trend misread",
+    "Low recursion cognition"
+  ],
+  "recursion_score_estimate": 1.5
+}
